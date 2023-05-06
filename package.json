@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./build/app.js",
-    "build": "npx tsc && npm run build:copy-files",
+    "start": "node build/app.js",
     "dev": "npx tsc --noEmit && node ./build/app.js"
   },
   "keywords": [],
